@@ -5,7 +5,7 @@ import * as C from './styles';
 const Loading = () => {
     return(
         <C.Container>
-            <LinkedInStyle />
+            <LinkedInStyle width='600' height='675'/>
         </C.Container>
     );
 };
