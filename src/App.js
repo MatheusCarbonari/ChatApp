@@ -6,6 +6,7 @@ import Login from "./components/Login";
 import Sidebar from "./components/Sidebar";
 import './styles/app';
 import { Container } from "./styles/app";
+import Chat from "./components/Chat";
 
 const App = () => {
 
@@ -28,6 +29,7 @@ const App = () => {
     return(
         <Container>
             <Sidebar setUserChat={setUserChat} userChat={userChat}/>
+            <Chat userChat={userChat}/>
         </Container>
         
     )
